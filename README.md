@@ -1,10 +1,15 @@
 # WiFi Duck
 
 <p align="center">
-<img alt="WiFi Duck Logo" src="img/thumbnail.jpg" width="640">
+This is the WifiDuck version released during Rootcon18
 </p>
 
-### 👉 Visit [wifiduck.com](https://wifiduck.com) for an improved documentation.
+Code has been edited to remove the Internal Connection Issues reported.
+
+This setup uses the ESP8266 and Arduino Pro Micro.
+
+
+### 👉 Visit [wifiduck.com](https://wifiduck.com) for the original documentation.
 
 Want to learn more about BadUSBs? Check out our online course: [learnbadusb.com](https://learnbadusb.com) 
 
@@ -247,6 +252,8 @@ You can also order them on OSHPark:
 4. Go to `Tools` > `Board` > `Board Manager`, search for `wifi duck` and install `WiFi Duck AVR Boards` and `WiFi Duck ESP8266 Boards`.
 5. [Download](https://github.com/spacehuhn/WiFiDuck/archive/master.zip) and extract this repository or [git clone](https://github.com/spacehuhn/WiFiDuck.git) it.
 
+*** MAKE SURE TO USE Wifi Duck AVR Board v1.8.3 (v1.8.4 has issues uploading) ***
+
 If you can't find the COM port of ESP8266 board, then you're probably missing the right drivers.
 Here are links to drivers of the 2 most used UART chips on ESP8266 development boards:
 - :floppy_disk: [CP2102](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
@@ -255,12 +262,11 @@ Here are links to drivers of the 2 most used UART chips on ESP8266 development b
 ### Flash Atmega32u4
 
 1. Open `atmegaduck/atmega_duck.ino` with the Arduino IDE.
-2. Under `Tools` > `Board` in the `WiFi Duck AVR` section, select your board;
-for example, `Sparkfun Pro Micro`.
+2. Under `Tools` > `Board` in the `WiFi Duck AVR` section, select  `Sparkfun Pro Micro`.
 3. Connect the Atmega32u4 board via USB and select its port under `Tools` > `Port`.
-4. Optional: Under `Tools` you can enable the LED and set its pin.
-You can also change the USB ID to make it appear as a certain type of keyboard.
-5. Press Upload.
+4. Under `Tools` > `Debug` >set to Disabled
+5. Under `Tools` > `Protocol` > set to I2C
+6. Press Upload
 
 ### Flash ESP8266
 

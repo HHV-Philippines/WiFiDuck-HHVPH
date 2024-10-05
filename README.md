@@ -22,6 +22,7 @@ By using a simple scripting language, it's easy to make BadUSBs type whatever yo
 With the WiFi Duck, you can simply connect via WiFi to manage all scripts
 from within a web interface. This means that, unlike other BadUSBs, you don't need to install an app, log in, compile or copy scripts to an SD card.  
 
+
 ## Usage
 
 1. Plug in your WiFi Duck
@@ -54,6 +55,9 @@ That's because USB runs on 5V, but the ESP8266 only takes 3.3V. Luckily most dev
 | ----------------- | -------------------- |
 | `5V` or `VIN`     | `RAW`, `5V` or `VIN` |
 
+
+###Soldering
+See the WifiDuck_soldering-HHVPH.pdf file for soldering instructions. Zoom in to make sure you're soldering the correct pins.
 
 ## Flash Software
 1. Download and install the [Arduino IDE](https://www.arduino.cc/en/main/software).

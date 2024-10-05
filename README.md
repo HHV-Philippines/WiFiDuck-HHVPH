@@ -28,14 +28,6 @@ from within a web interface. This means that, unlike other BadUSBs, you don't ne
 
 ## Usage
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=sSJuGXd8QRk">
-    <img alt="WiFi Duck Video Thumbnail" src="https://raw.githubusercontent.com/spacehuhn/WiFiDuck/master/img/showcase.gif" width="400">
-    <br>
-    <b>Watch the full video</b>
-  </a>
-</p>
-
 1. Plug in your WiFi Duck
 2. Connect to the WiFi network `wifiduck` with the password `wifiduck`
 3. Open a browser and visit `192.168.4.1`

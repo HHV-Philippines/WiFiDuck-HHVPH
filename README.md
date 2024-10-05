@@ -56,7 +56,8 @@ That's because USB runs on 5V, but the ESP8266 only takes 3.3V. Luckily most dev
 | `5V` or `VIN`     | `RAW`, `5V` or `VIN` |
 
 
-###Soldering
+### Soldering
+
 See the WifiDuck_soldering-HHVPH.pdf file for soldering instructions. Zoom in to make sure you're soldering the correct pins.
 
 ## Flash Software

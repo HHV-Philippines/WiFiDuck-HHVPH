@@ -9,7 +9,7 @@ Code has been edited to remove the Internal Connection Issues reported.
 This setup uses the ESP8266 and Arduino Pro Micro.
 
 
-### 👉 Visit [wifiduck.com](https://wifiduck.com) for the original documentation.
+Visit [wifiduck.com](https://wifiduck.com) for the original documentation.
 
 Want to learn more about BadUSBs? Check out our online course: [learnbadusb.com](https://learnbadusb.com) 
 

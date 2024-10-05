@@ -1,17 +1,13 @@
 # WiFi Duck
 
-<p align="center">
 This is the WifiDuck version released during Rootcon18
-</p>
+
 
 Code has been edited to remove the Internal Connection Issues reported.
 
 This setup uses the ESP8266 and Arduino Pro Micro.
 
 
-Visit [wifiduck.com](https://wifiduck.com) for the original documentation.
-
-Want to learn more about BadUSBs? Check out our online course: [learnbadusb.com](https://learnbadusb.com) 
 
 ## About
 
@@ -356,10 +352,13 @@ See the [license file](LICENSE) for details.
 
 ## Credits
 
+Visit [wifiduck.com](https://wifiduck.com) for the original documentation.
+
+Want to learn more about BadUSBs? Check out our online course: [learnbadusb.com](https://learnbadusb.com) 
+
+
 Software libraries used in this project:
   - [Arduino](https://www.arduino.cc)
-  - [Neopixel Library](https://github.com/adafruit/Adafruit_NeoPixel)
-  - [Dotstar Library](https://github.com/adafruit/Adafruit_DotStar)
   - [AVR, ESP8266 & SAMD Arduino Core](https://github.com/spacehuhn/hardware/tree/master/wifiduck)
   - [ESPAsyncTCP](https://github.com/me-no-dev/ESPAsyncTCP)
   - [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer)

@@ -2,6 +2,8 @@
 
 This is the WifiDuck version released during Rootcon18
 
+Tested on MacOS Sonoma 14.6.1 and Arduino IDE 2.3.2
+
 
 Code has been edited to remove the Internal Connection Issues reported.
 

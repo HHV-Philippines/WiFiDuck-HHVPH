@@ -80,8 +80,8 @@ Here are links to drivers of the 2 most used UART chips on ESP8266 development b
 ### Flash Atmega32u4
 
 1. Open `atmegaduck/atmega_duck.ino` with the Arduino IDE.
-2.a If your Atmega32u4 is USB-C -> Under `Tools` > `Board` in the `WiFi Duck AVR` section, select  `Sparkfun Pro Micro`.
-2.b If your Atmega32u4 is Micro-USB -> Under `Tools` > `Board` in the `Arduino AVR Boards` section, select  `Arduino Micro`
+2. a. If your Atmega32u4 is USB-C -> Under `Tools` > `Board` in the `WiFi Duck AVR` section, select  `Sparkfun Pro Micro`.
+   b. If your Atmega32u4 is Micro-USB -> Under `Tools` > `Board` in the `Arduino AVR Boards` section, select  `Arduino Micro`
 3. Connect the Atmega32u4 board via USB and select its port under `Tools` > `Port`.
 4. Under `Tools` > `Debug` >set to Disabled
 5. Under `Tools` > `Protocol` > set to I2C
